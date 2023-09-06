@@ -2,17 +2,17 @@
 This repository contains the notebooks that were used to obtain necessary results, and then to reproduce the figures given in the article  **"Regional scaling of sea surface temperature with global warming levels in the CMIP6 ensemble"**.
 
 In the **notebooks** folder 6 scripts can be found: 
-1. [calculate_global_gwls.ipynb](.notebooks/calculate_global_gwls.ipynb) calculates global mean differences of sea surface temperature (SST) and sea air temperature (STAS) with respect to global mean temperature, and GWL for each of the 26 global climate model analyzed.
+1. [calculate_global_gwls.ipynb](notebooks/calculate_global_gwls.ipynb) calculates global mean differences of sea surface temperature (SST) and sea air temperature (STAS) with respect to global mean temperature, and GWL for each of the 26 global climate model analyzed.
 
-2. [calculate_regional_gwls.ipynb](.notebooks/calculate_regional_gwls.ipynb) calculates regional mean differences (for IPCC regions <sup>[1]</sup> over sea surfaces and sea biomes) of SST and STAS with respect 	to global mean temperature, and GWL for each of the 26 global climate model
+2. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates regional mean differences (for IPCC regions <sup>[1]</sup> over sea surfaces and sea biomes) of SST and STAS with respect 	to global mean temperature, and GWL for each of the 26 global climate model
 
-3. [calculate_global_statistics.ipynb](.notebooks/calculate_global_statistics.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit
+3. [calculate_global_statistics.ipynb](notebooks/calculate_global_statistics.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit
 
-4. [calculate_regional_gwls.ipynb](.notebooks/calculate_regional_gwls.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit  the IPCC regions <sup>[1]</sup> over sea surfaces and sea biomes.
+4. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit  the IPCC regions <sup>[1]</sup> over sea surfaces and sea biomes.
 
-5. [calculate_spatial_statistics.ipynb](.notebooks/calculate_spatial_statistics.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit per each grid cell for the spatial analysis.
+5. [calculate_spatial_statistics.ipynb](notebooks/calculate_spatial_statistics.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit per each grid cell for the spatial analysis.
 
-6. [publication_figures.ipynb](.notebooks/publication_figures.ipynb) reproduces all the figure from the article.
+6. [publication_figures.ipynb](notebooks/publication_figures.ipynb) reproduces all the figure from the article.
 
 To obtain conda environment named `sst-gwl` use enviroment.yml file:
 
