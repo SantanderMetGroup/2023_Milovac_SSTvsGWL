@@ -1,7 +1,7 @@
 # 2023_Milovac_SSTvsGWL
 This repository contains the notebooks that were used to obtain necessary results, and then to reproduce the figures given in the article  **"Regional scaling of sea surface temperature with global warming levels in the CMIP6 ensemble"**.
 
-In the **notebooks** folder 6 scripts can be found: 
+In the [notebooks](notebooks) folder 6 scripts can be found: 
 1. [calculate_global_gwls.ipynb](notebooks/calculate_global_gwls.ipynb) calculates global mean differences of sea surface temperature (SST) and sea air temperature (STAS) with respect to global mean temperature, and GWL for each of the 26 global climate model analyzed.
 
 2. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates regional mean differences (for IPCC regions <sup>[1]</sup> over sea surfaces and sea biomes) of SST and STAS with respect 	to global mean temperature, and GWL for each of the 26 global climate model
@@ -18,11 +18,11 @@ To obtain conda environment named `sst-gwl` use enviroment.yml file:
 
 	conda env create -f environment.yml
 
-In **data** folder small size files are located:
-1. *data/masks* contains masking files of land-sea contrast  and those used for different regional analyses.
-2. *data/data_info* contains files with the lists of regional names and models used in both high- and low- resolution analyses. 
+In [data](data) folder small size files are located:
+1. [data/masks](data/masks) contains masking files of land-sea contrast  and those used for different regional analyses.
+2. [data/data_info](data/data_info) contains files with the lists of regional names and models used in both high- and low- resolution analyses. 
 
-All the heavier data (i.e. annual and seasonal, global and regional means) necessary to run notebooks 1, 2, and 5, and also output from notebooks 3 and 4 are available on Zenodo (link to be provided)
+All the heavier data (i.e. annual and seasonal, global and regional means) necessary to run notebooks 1, 2, and 5, and also output from notebooks 3 and 4 are available on [Zenodo](https://zenodo.org/record/tobeprovided) repository.
 
 **This work is licensed under a Creative Commons Attribution 4.0 International License.**
 
