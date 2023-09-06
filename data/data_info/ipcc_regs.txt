@@ -1,0 +1,13 @@
+20 MED Mediterranean
+47 ARO Arctic-Ocean        
+48 NPO N.Pacific-Ocean
+49 EPO Equatorial.Pacific-Ocean    
+50 SPO S.Pacific-Ocean
+51 NAO N.Atlantic-Ocean
+52 EAO Equatorial.Atlantic-Ocean
+53 SAO S.Atlantic-Ocean
+54 ARS Arabian-Sea
+55 BOB Bengal-Gulf
+56 EIO Equatorial.Indic-Ocean
+57 SIO S.Indic-Ocean
+58 SOO Southern-Ocean
