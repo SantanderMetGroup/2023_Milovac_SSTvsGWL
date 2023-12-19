@@ -22,7 +22,7 @@ In [data](data) folder small size files are located:
 1. [data/masks](data/masks) contains masking files of land-sea contrast  and those used for different regional analyses.
 2. [data/data_info](data/data_info) contains files with the lists of regional names and models used in both high- and low- resolution analyses. 
 
-All the heavier data (i.e. annual and seasonal, global and regional means) necessary to run notebooks 1, 2, and 5, and also output from notebooks 3 and 4 are available on [Zenodo](https://zenodo.org/record/tobeprovided) repository.
+All the heavier data (i.e. annual and seasonal, global and regional means) necessary to run notebooks 1, 2, and 5, and also output from notebooks 3 and 4 are available on [Zenodo](https://zenodo.org/records/8325102) repository.
 
 **This work is licensed under a Creative Commons Attribution 4.0 International License.**
 
