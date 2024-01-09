@@ -1,7 +1,7 @@
 # 2023_Milovac_SSTvsGWL
-This repository contains the notebooks that were used to obtain necessary variables, and then to reproduce the figures given in the article  **"Regional scaling of sea surface temperature with global warming levels in the CMIP6 ensemble"**.
+This repository contains the notebooks that were used to obtain necessary results, and then to reproduce the figures given in the article  **"Regional scaling of sea surface temperature with global warming levels in the CMIP6 ensemble"**.
 
-In the [notebooks](notebooks) folder 6 notebooks can be found: 
+In the [notebooks](notebooks) folder 6 scripts can be found: 
 1. [calculate_global_gwls.ipynb](notebooks/calculate_global_gwls.ipynb) calculates global mean differences of sea surface temperature (SST) and sea air temperature (STAS) with respect to global mean temperature, and GWL for each of the 26 global climate model analyzed.
 
 2. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates regional mean differences (for IPCC regions <sup>[1]</sup> over sea surfaces and sea biomes) of SST and STAS with respect 	to global mean temperature, and GWL for each of the 26 global climate model
