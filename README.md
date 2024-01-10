@@ -5,7 +5,7 @@ This repository provides an updated version of the IPCC-WGI reference regions (I
 
 * The [conda-environment](conda-environment) folder contains the `environment.yml` file with the recipe of the necessary software for running the reproducibility notebooks available in this repository. To obtain conda environment named `sst-gwl` run the following:
 
- 	 conda env create -f environment.yml
+ 	 `conda env create -f environment.yml`
 
 * The [notebooks](notebooks) folder provides the notebooks that were used to obtain necessary results, and then to reproduce the figures given in the article. Six scripts can be found: 
   1. [calculate_global_gwls.ipynb](notebooks/calculate_global_gwls.ipynb) calculates global mean differences of sea surface temperature (SST) and sea air temperature (STAS) with respect to global mean temperature, and GWL for each of the 26 global climate model analyzed.
