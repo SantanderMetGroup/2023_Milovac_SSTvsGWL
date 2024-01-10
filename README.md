@@ -1,7 +1,7 @@
 # 2023_Milovac_SSTvsGWL
 This repository provides an updated version of the IPCC-WGI reference regions (Iturbide et al. 2020; 10.5194/essd-12-2959-2020), which incorporates a **refinement of the definition of the oceanic regions** as proposed in the article **'Regional Scaling of Sea Surface Temperature with Global Warming Levels in the CMIP6 Ensemble'** by **Milovac et al**. It also contains materials, including **notebooks**, for the reproducibility of the results presented in the article.
 
-* The [IPCC-WGI-reference-regions-v4_ocean-regions-refined](IPCC-WGI-reference-regions-v4_ocean-regions-refined) folder contains the shapefile that incorporates refinements to the oceanic regions originally defined in *IPCC-WGI-reference-regions-v4* (Iturbide et al. 2020; 10.5194/essd-12-2959-2020). 
+* The [IPCC-WGI-reference-regions-v4_ocean-regions-refined](IPCC-WGI-reference-regions-v4_ocean-regions-refined) folder contains the shapefile that incorporates refinements to the oceanic regions originally defined in *IPCC-WGI-reference-regions-v4* (Iturbide et al. 2020 <sup>[1]</sup>). 
 
 * The [conda-environment](conda-environment) folder contains the `environment.yml` file with the recipe of the necessary software for running the reproducibility notebooks available in this repository. To obtain conda environment named `sst-gwl` run the following:
 
@@ -10,11 +10,11 @@ This repository provides an updated version of the IPCC-WGI reference regions (I
 * The [notebooks](notebooks) folder provides the notebooks that were used to obtain necessary results, and then to reproduce the figures given in the article. Six scripts can be found: 
   1. [calculate_global_gwls.ipynb](notebooks/calculate_global_gwls.ipynb) calculates global mean differences of sea surface temperature (SST) and sea air temperature (STAS) with respect to global mean temperature, and GWL for each of the 26 global climate model analyzed.
 
-  2. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates regional mean differences (for IPCC regions <sup>[1]</sup> over sea surfaces and sea biomes) of SST and STAS with respect 	to global mean temperature, and GWL for each of the 26 global climate model
+  2. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates regional mean differences (for IPCC-WGI oceanic reference regions <sup>[1]</sup>  and over ocean biomes) of SST and STAS with respect	to global mean temperature, and GWL for each of the 26 global climate model
 
   3. [calculate_global_statistics.ipynb](notebooks/calculate_global_statistics.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit
 
-  4. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit  the IPCC regions <sup>[1]</sup> over sea surfaces and sea biomes.
+  4. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit  the IPCC-WGI reference regions <sup>[1]</sup> over sea surfaces and sea biomes.
 
   5. [calculate_spatial_statistics.ipynb](notebooks/calculate_spatial_statistics.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit per each grid cell for the spatial analysis.
 
