@@ -1,5 +1,5 @@
 # 2023_Milovac_SSTvsGWL
-This repository provides an updated version of the IPCC-WGI reference regions (Iturbide et al. 2020; 10.5194/essd-12-2959-2020), which incorporates a **refinement of the definition of the oceanic regions** as proposed in the article **'Regional Scaling of Sea Surface Temperature with Global Warming Levels in the CMIP6 Ensemble'** by *Milovac et al*. It also contains materials, including **notebooks**, for the reproducibility of the results presented in the article.
+This repository provides an updated version of the IPCC-WGI reference regions (Iturbide et al. 2020; 10.5194/essd-12-2959-2020), which incorporates a **refinement of the definition of the oceanic regions** as proposed in the article **'Regional Scaling of Sea Surface Temperature with Global Warming Levels in the CMIP6 Ensemble'** by **Milovac et al**. It also contains materials, including **notebooks**, for the reproducibility of the results presented in the article.
 
 * The [IPCC-WGI-reference-regions-v4_ocean-regions-refined](IPCC-WGI-reference-regions-v4_ocean-regions-refined) folder contains the shapefile that incorporates refinements to the oceanic regions originally defined in *IPCC-WGI-reference-regions-v4* (Iturbide et al. 2020; 10.5194/essd-12-2959-2020). 
 
