@@ -3,6 +3,10 @@ This repository provides an updated version of the IPCC-WGI reference regions (I
 
 * The [IPCC-WGI-reference-regions-v4_ocean-regions-refined](IPCC-WGI-reference-regions-v4_ocean-regions-refined) folder contains the shapefile that incorporates refinements to the oceanic regions originally defined in *IPCC-WGI-reference-regions-v4* (Iturbide et al. 2020; 10.5194/essd-12-2959-2020). 
 
+* The [conda-environment](conda-environment) folder contains the `environment.yml` file with the recipe of the necessary software for running the reproducibility notebooks available in this repository. To obtain conda environment named `sst-gwl` run the following:
+
+	conda env create -f environment.yml
+
 * The [notebooks](notebooks) folder provides the notebooks that were used to obtain necessary results, and then to reproduce the figures given in the article. Six scripts can be found: 
   1. [calculate_global_gwls.ipynb](notebooks/calculate_global_gwls.ipynb) calculates global mean differences of sea surface temperature (SST) and sea air temperature (STAS) with respect to global mean temperature, and GWL for each of the 26 global climate model analyzed.
 
@@ -16,9 +20,7 @@ This repository provides an updated version of the IPCC-WGI reference regions (I
 
   6. [publication_figures.ipynb](notebooks/publication_figures.ipynb) reproduces all the figure from the article.
 
-To obtain conda environment named `sst-gwl` use enviroment.yml file:
 
-	conda env create -f environment.yml
 
 * In [data](data) folder small size files are located:
   1. [data/masks](data/masks) contains masking files of land-sea contrast  and those used for different regional analyses at different grid resolutions.
