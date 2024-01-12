@@ -1,9 +1,9 @@
 # 2023_Milovac_SSTvsGWL
 This repository provides an updated version of the IPCC-WGI reference regions <sup>[1]</sup>, which incorporates a **refinement of the definition of the oceanic regions** as proposed in the article **'Regional Scaling of Sea Surface Temperature with Global Warming Levels in the CMIP6 Ensemble'** by **Milovac et al**. It also contains materials, including **notebooks**, for the reproducibility of the results presented in the article.
 
+<p>
 <img style="margin-left: 5rem" align="right" src="Physical-climate-assessment-reference-regions-v4.1/Fig/Fig_Physical-climate-assessment-reference-regions-v4.1.png" alt="drawing" width="500"\>
-
-<p></p>
+</p>
 
 
 * The [Physical-climate-assessment-reference-regions-v4.1](Physical-climate-assessment-reference-regions-v4.1) folder contains the shapefile that incorporates refinements to the oceanic regions originally defined in *IPCC-WGI-reference-regions-v4* <sup>[1]</sup>. It also includes a [GeoJSON](https://github.com/SantanderMetGroup/2023_Milovac_SSTvsGWL/blob/main/Physical-climate-assessment-reference-regions-v5/Physical-climate-assessment-reference-regions-v4.1.geojson) version and the coordinates of the polygon vertices. Both the shapefile and the GeoJSON have a resolution of 0.44 degrees between the coordinates forming the polygons.
