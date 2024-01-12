@@ -6,7 +6,7 @@ This repository provides an updated version of the IPCC-WGI reference regions <s
 </p>
 
 
-* The [Physical-climate-assessment-reference-regions-v4.1](Physical-climate-assessment-reference-regions-v4.1) folder contains the shapefile that incorporates refinements to the oceanic regions originally defined in *IPCC-WGI-reference-regions-v4* <sup>[1]</sup>. It also includes a [GeoJSON](https://github.com/SantanderMetGroup/2023_Milovac_SSTvsGWL/blob/main/Physical-climate-assessment-reference-regions-v5/Physical-climate-assessment-reference-regions-v4.1.geojson) version and the coordinates of the polygon vertices. Both the shapefile and the GeoJSON have a resolution of 0.44 degrees between the coordinates forming the polygons.
+* The [Physical-climate-assessment-reference-regions-v4.1](Physical-climate-assessment-reference-regions-v4.1) folder contains the shapefile that incorporates refinements to the oceanic regions originally defined in *IPCC-WGI-reference-regions-v4* <sup>[1]</sup>. It also includes a [GeoJSON](https://github.com/SantanderMetGroup/2023_Milovac_SSTvsGWL/blob/main/Physical-climate-assessment-reference-regions-v5/Physical-climate-assessment-reference-regions-v4.1.geojson) version and the coordinates of the polygon vertices. Both the shapefile and the GeoJSON have a resolution of 0.44 / degrees between the coordinates forming the polygons.
 
 
 * The [conda-environment](conda-environment) folder contains the `environment.yml` file with the recipe of the necessary software for running the reproducibility notebooks available in this repository. To obtain conda environment named `sst-gwl` run the following:
