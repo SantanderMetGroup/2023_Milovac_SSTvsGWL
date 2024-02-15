@@ -9,7 +9,7 @@ This repository provides an updated version of the IPCC-WGI reference regions <s
 * The [Physical-climate-assessment-reference-regions-v4.1](Physical-climate-assessment-reference-regions-v4.1) folder contains the **shapefile** that incorporates refinements to the oceanic regions originally defined in *IPCC-WGI-reference-regions-v4* <sup>[1]</sup>. It also includes a [GeoJSON](https://github.com/SantanderMetGroup/2023_Milovac_SSTvsGWL/blob/main/Physical-climate-assessment-reference-regions-v5/Physical-climate-assessment-reference-regions-v4.1.geojson) version and the coordinates of the polygon vertices. Both the shapefile and the GeoJSON have a resolution of 0.44 degrees between the coordinates forming the polygons.
 
 
-* The [conda-environment](conda-environment) folder contains the `environment.yml` file with the recipe of the necessary software for running the reproducibility notebooks available in this repository. To obtain conda environment named `sst-gwl` run the following:
+* The [conda-environment](conda-environment) folder contains the `environment.yml` file with the recipe of the necessary software for running the reproducibility notebooks available in this repository. To obtain a conda environment named `sst-gwl` run the following:
 
  	 `conda env create -f environment.yml`
 
@@ -20,7 +20,7 @@ This repository provides an updated version of the IPCC-WGI reference regions <s
 
   3. [calculate_global_statistics.ipynb](notebooks/calculate_global_statistics.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit
 
-  4. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit  the IPCC-WGI reference regions <sup>[1]</sup> over sea surfaces and sea biomes.
+  4. [calculate_regional_gwls.ipynb](notebooks/calculate_regional_gwls.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit  of the IPCC-WGI reference regions <sup>[1]</sup> over sea surfaces and sea biomes.
 
   5. [calculate_spatial_statistics.ipynb](notebooks/calculate_spatial_statistics.ipynb) calculates slope, p value, standard deviation of the slope, and correlation coefficients for the linear and exponential fit per each grid cell for the spatial analysis.
 
@@ -30,9 +30,10 @@ This repository provides an updated version of the IPCC-WGI reference regions <s
 
 * In [data](data) folder small size files are located:
   1. [data/masks](data/masks) contains masking files of land-sea contrast  and those used for different regional analyses at different grid resolutions.
-  1. [data/IPCC-reference-regions](data/IPCC-reference-regions) contains *shapefiles* (*.shp) of the polygons defining the regions used in the Sixth Assessment Report of the IPCC. This data was taken from the source repository [https://github.com/IPCC-WG1/Atlas](https://github.com/IPCC-WG1/Atlas).
+  1. [data/polygons](data/polygons) contains *shapefiles* (*.shp) of the polygons defining (1) the regions used in the Sixth Assessment Report of the IPCC and (2) the world's coastlines. This data was taken from the source repository [https://github.com/IPCC-WG1/Atlas](https://github.com/IPCC-WG1/Atlas).
   2. [data/data_info](data/data_info) contains files with the lists of regional names and models used in both high- and low- resolution analyses.
-  3. [data/data_txt.tar.gz](data/data_txt.tar.gz) contains all data necessary to be able to run [publication_figures.ipynb](notebooks/publication_figures.ipynb) and to reproduce the figures from the article. Prior to running the notebook, it is neccesarry to decompress the file in the same location after cloning the repository. 
+  3. [data/data_txt.tar.gz](data/data_txt.tar.gz) contains all data necessary to be able to run [publication_figures.ipynb](notebooks/publication_figures.ipynb) and to reproduce the figures from the article. Before running the notebook, it is necessary to decompress the file in the same location after cloning the repository.
+ 
 
 All the heavier data (i.e. annual and seasonal, global and regional means) necessary to run notebooks 1, 2, and 5, and also output from notebooks 3 and 4 are available on [Zenodo](https://zenodo.org/records/8325102) repository.
 
