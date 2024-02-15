@@ -13,8 +13,7 @@ The scripts and code are available under the [GNU General Public License v3.0](h
 
     We acknowledge the World Climate Research Program's Working Group on 
     Coupled Modelling, which is responsible for CMIP, and we thank the 
-    climate modeling groups (listed in the Atlas inventory folders in this 
-    repository) for producing and making available their model output. 
+    climate modeling groups for producing and making available their model output. 
     
 
 
