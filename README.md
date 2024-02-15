@@ -35,7 +35,7 @@ This repository provides an updated version of the IPCC-WGI reference regions <s
   3. [data/data_txt.tar.gz](data/data_txt.tar.gz) contains all data necessary to be able to run [publication_figures.ipynb](notebooks/publication_figures.ipynb) and to reproduce the figures from the article. Before running the notebook, it is necessary to decompress the file in the same location after cloning the repository.
  
 
-All the heavier data (i.e. annual and seasonal, global and regional means) necessary to run notebooks 1, 2, and 5, and also output from notebooks 3 and 4 are available on [Zenodo](https://zenodo.org/records/8325102) repository.
+All the heavier data (i.e. annual and seasonal, global and regional means) necessary to run notebooks 1, 2, and 5, and also output from notebooks 3 and 4 are available on [Zenodo](https://zenodo.org/records/10666947) repository.
 
 **This work is licensed under a Creative Commons Attribution 4.0 International License.**
 
