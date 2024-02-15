@@ -1,0 +1,15 @@
+09 CAR Caribbean
+20 MED Mediterranean
+39 SEA South-East Asia
+47 ARO Arctic-Ocean        
+48 NPO North-Pacific-Ocean
+49 EPO Equatorial-Pacific-Ocean    
+50 SPO South-Pacific-Ocean
+51 NAO North-Atlantic-Ocean
+52 EAO Equatorial-Atlantic-Ocean
+53 SAO South-Atlantic-Ocean
+54 ARS Arabian-Sea
+55 BOB Bengal-Gulf
+56 EIO Equatorial-Indian-Ocean
+57 SIO South-Indian-Ocean
+58 SOO Southern-Ocean
